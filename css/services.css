@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: #2d89ef;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+header {
+    background: #1976d2;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+main {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.service-block {
+    background: #f1f6fb;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(25, 118, 210, 0.07);
+    margin-bottom: 2rem;
+    padding: 1.5rem 1rem;
+    transition: box-shadow 0.2s;
+}
+.service-block:hover {
+    box-shadow: 0 4px 16px rgba(25, 118, 210, 0.13);
+}
+
+section {
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+    font-size: 1.05rem;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+.social-icons a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.social-icons a[href*="youtube"]:hover {
+    color: #FF0000;
+}
+.social-icons a[href*="instagram"]:hover {
+    color: #C13584;
+}
+.social-icons a[href*="facebook"]:hover {
+    color: #3b5998;
+}
+.social-icons a[href*="twitter"]:hover,
+.social-icons a[href*="x-twitter"]:hover {
+    color: #1DA1F2;
+}

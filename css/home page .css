@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: #2d89ef;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: #f0f4f8;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.section {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+.doctor-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.doctor {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.social-icons a[href*="youtube"]:hover {
+    color: #FF0000;
+}
+.social-icons a[href*="instagram"]:hover {
+    color: #C13584;
+}
+.social-icons a[href*="facebook"]:hover {
+    color: #3b5998;
+}
+.social-icons a[href*="x-twitter"]:hover {
+    color: #1DA1F2;
+}
+
+@media (max-width: 768px) {
+    .doctor-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .doctor {
+        width: 90%;
+    }
+    
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
